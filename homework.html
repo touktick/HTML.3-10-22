@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<style>
+		h1{color: rgba(27, 27, 202, 0.527);}
+	</style>
+</head>
+<body>
+	<h1>Hello World</h1>
+	<input type="text" placeholder="Enter your name" id="inputName">
+	<button onclick="myFunction()">Enter</button>
+	<p id="printname"></p>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("inputName").value;
+		  document.getElementById("printname").innerHTML = x;
+		}		
+	</script>
+
+</body>
+</html>
